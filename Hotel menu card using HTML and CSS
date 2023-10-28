@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .menu-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    h1 {
+      color: #007bff;
+      text-align: center;
+    }
+
+    .menu-item {
+      border: 1px solid #ccc;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #ffffff;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    .menu-item:hover {
+      background-color: #f0f0f0;
+    }
+
+    p {
+      color: #333;
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .item-price {
+      font-weight: bold;
+      color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h1>MADURAI POWER KADAI</h1>
+
+    <div class="menu-item">
+      <h3>PARROTA</h3>
+      <p> Parotta is known for its flaky, layered texture and is typically made with all-purpose flour .</p>
+      <p class="item-price">₹12.99</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>VENKAYA KARI</h3>
+      <p>Chicken Vankaya Kura is a delicious and flavorful South Indian curry that combines tender pieces of chicken with onion in a spicy and aromatic gravy. .</p>
+      <p class="item-price">₹150.99</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Grilled Chicken</h3>
+      <p>Freshly grilled Chicken fillet served with steamed chicken and lemon butter mayonnise.</p>
+      <p class="item-price">₹240.99</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Karri dosa</h3>
+      <p>Kara Dosa (Spicy Dosa): Kara Dosa is a popular South Indian dish, a variant of the traditional dosa, which is a thin, crispy, and savory pancake made from fermented rice and urad dal (black gram) batter. .</p>
+      <p class="item-price">₹92.99</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Jigarthanda</h3>
+      <p>Jigarthanda is a popular and refreshing South Indian drink, particularly well-known in the state of Tamil Nadu, India. .</p>
+      <p class="item-price">₹72.99</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>Rathha porriyal</h3>
+      <p>Rattha Porial is a traditional South Indian dish, particularly popular in the Tamil Nadu region of India. .</p>
+      <p class="item-price">₹12.99</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>khodal kolambu</h3>
+      <p>Kudal Kulambu is another very traditional curry recipe of Chettinad cuisine and also other parts of Tamil Nadu..</p>
+      <p class="item-price">₹145.</p>
+    </div>
+  </div>
+</body>
+</html>
